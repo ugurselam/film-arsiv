@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ugurs\\OneDrive\\Masa\u00FCst\u00FC\\Film_Arsiv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBE6624-1EA1-4ADC-AB09-4B638B5626ED}|Film_Arsiv\\Film_Arsiv.csproj|c:\\users\\ugurs\\onedrive\\masa\u00FCst\u00FC\\film_arsiv\\film_arsiv\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1EBE6624-1EA1-4ADC-AB09-4B638B5626ED}|Film_Arsiv\\Film_Arsiv.csproj|solutionrelative:film_arsiv\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBE6624-1EA1-4ADC-AB09-4B638B5626ED}|Film_Arsiv\\Film_Arsiv.csproj|c:\\users\\ugurs\\onedrive\\masa\u00FCst\u00FC\\film_arsiv\\film_arsiv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBE6624-1EA1-4ADC-AB09-4B638B5626ED}|Film_Arsiv\\Film_Arsiv.csproj|solutionrelative:film_arsiv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBE6624-1EA1-4ADC-AB09-4B638B5626ED}|Film_Arsiv\\Film_Arsiv.csproj|c:\\users\\ugurs\\onedrive\\masa\u00FCst\u00FC\\film_arsiv\\film_arsiv\\views\\home\\film.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EBE6624-1EA1-4ADC-AB09-4B638B5626ED}|Film_Arsiv\\Film_Arsiv.csproj|solutionrelative:film_arsiv\\views\\home\\film.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 330,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Film.cshtml",
+              "DocumentMoniker": "C:\\Users\\ugurs\\OneDrive\\Masa\u00FCst\u00FC\\Film_Arsiv\\Film_Arsiv\\Views\\Home\\Film.cshtml",
+              "RelativeDocumentMoniker": "Film_Arsiv\\Views\\Home\\Film.cshtml",
+              "ToolTip": "C:\\Users\\ugurs\\OneDrive\\Masa\u00FCst\u00FC\\Film_Arsiv\\Film_Arsiv\\Views\\Home\\Film.cshtml",
+              "RelativeToolTip": "Film_Arsiv\\Views\\Home\\Film.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T12:52:11.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\ugurs\\OneDrive\\Masa\u00FCst\u00FC\\Film_Arsiv\\Film_Arsiv\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Film_Arsiv\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\ugurs\\OneDrive\\Masa\u00FCst\u00FC\\Film_Arsiv\\Film_Arsiv\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Film_Arsiv\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-25T12:14:17.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ugurs\\OneDrive\\Masa\u00FCst\u00FC\\Film_Arsiv\\Film_Arsiv\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Film_Arsiv\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ugurs\\OneDrive\\Masa\u00FCst\u00FC\\Film_Arsiv\\Film_Arsiv\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Film_Arsiv\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwDAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:27:53.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+﻿@model (Film_Arsiv.Models.Film, bool, int)
+@{
+	Layout = "_Layout";
+}
+
+<div class="wrapper">
+	<img src="@Model.Item1.Poster" alt="@Model.Item1.Title" />
+
+	<div class="film-info">
+		<h2>@Model.Item1.Title (@Model.Item1.Year)</h2>
+		<p><strong>Tür:</strong> @Model.Item1.Genre</p>
+		<p><strong>Yönetmen:</strong> @Model.Item1.Director</p>
+		<p><strong>Senarist:</strong> @Model.Item1.Writer</p>
+		<p><strong>Süre:</strong> @Model.Item1.Runtime</p>
+		<p><strong>Konu:</strong> @Model.Item1.Plot</p>
+	</div>
+</div>
+
+
+<div class="wrapper">
+	<h2>Yorum Yap</h2>
+	<form asp-action="AddToComment" method="post">
+		<input type="hidden" name="FilmID" value="@Model.Item1.ID" />
+		<input type="text" name="Name" placeholder="İsminiz" />
+		<textarea name="Message" placeholder="Yorumunuz"></textarea>
+		<button class="btn">Yorum Gönder</button>
+	</form>
+
+	<div class="comment-list">
+		<h2>Yorumlar</h2>
+		@if (Model.Item1.Comments.Count > 0)
+		{
+			@foreach (var comment in Model.Item1.Comments)
+			{
+				<div class="comment-item">
+					<div class="comment-user">
+						<strong>@comment.Name</strong>
+					</div>
+					<div class="comment-text">
+						<p>@comment.Message</p>
+					</div>
+				</div>
+
+				<div class="pagination">
+					@if (Model.Item3 > 1)
+					{
+						<a href="?page=@(Model.Item3 - 1)">Önceki</a>
+					}
+					@if (Model.Item2)
+					{
+						<a href="?page=@(Model.Item3 + 1)">Sonraki</a>
+					}
+				</div>
+			}
+		}
+		else
+		{
+			<p>Yorum Bulunamadı</p>
+		}
+	</div>
+</div>

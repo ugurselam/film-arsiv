@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Film Arşiv</title>
+	<link rel="stylesheet" href="~/css/style.css">
+
+</head>
+<body>
+	<header>
+		<div class="container header">
+			<h1>🎬 Film Arşiv</h1>
+			@if (ViewData["Action"]?.ToString() == "Index")
+			{
+				<a href="@Url.Action("Film")" class="btn">+ Film Ekle</a>
+			}
+			else
+			{
+				<a href="@Url.Action("Index")" class="btn">Ana Sayfa</a>
+			}
+
+		</div>
+	</header>
+
+	<main class="container">
+		@RenderBody()
+	</main>
+
+	<footer>
+		<p>&copy; 2025 Film Arşiv. Tüm hakları saklıdır.</p>
+	</footer>
+
+	<script src="~/js/site.js"></script>
+</body>
+</html>
